@@ -17,7 +17,7 @@ public class Main {
             } catch (WrongLoginException e) {
                 System.out.println(e.getMessage() + " " +  '"' + user.getLogin() + '"');
 
-            } catch (WrongPasswordException e) {
+            } catch (WrongPasswordException e)  {
                 System.out.println("пользователь " + user.getLogin() + ": " +  e.getMessage());
             }
 
